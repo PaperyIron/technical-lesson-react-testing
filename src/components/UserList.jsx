@@ -12,7 +12,7 @@ function UserList({users}) {
                     <h4 className="inline-block-child">{user.name}</h4>
                     <h2 className="inline-block-child">{"|"}</h2>
                     <img className="active-image inline-block-child" src = {user.status=="Online" ? "./Pan_Green_Circle.png":"./Red-Circle-Transparent.png"}/>
-                    <p data-testid="status-item" className="inline-block-child" onClick={()=>onClick(user)}>{user.status}</p>
+                    <p data-testid="status-item" className="inline-block-child" onClick={()=>{}}>{user.status}</p>
                 </div>
             </div>
         ))
